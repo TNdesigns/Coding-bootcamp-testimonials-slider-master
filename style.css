@@ -6,15 +6,12 @@ body{
     overflow-x: hidden;
     height: 100%;
     width: 100%;
-    
 }
 .slider1,
 .slider2{
     height: 500px;
     width: 1000px;
-    /*background-color: blue;*/
     display: flex;
-    
 }
 .slider1 p{
     position: relative;
@@ -99,11 +96,12 @@ body{
 }
 .np-btn{
     position: absolute;
-    top: 605px;
-    left: 690px;
+    top: 610px;
+    left: 54vw;
     background-color: rgb(255, 255, 255);
     border-radius: 30px;
     z-index: 1;
+    width: 110px;
 }
 #b1:hover,
 #b2:hover{
@@ -117,7 +115,6 @@ body{
 }
 #tm1{
     display: flex;
-    
 }
 #tm2{
     display: none;
@@ -131,7 +128,6 @@ body{
         overflow-x: hidden;
         height: 100%;
         width: 100%;
-        
     }
     .img4{
         height: 77vw;
@@ -226,7 +222,6 @@ body{
         overflow-x: hidden;
         height: 100%;
         width: 100%;
-        
     }
     .img4{
         height: 77vw;
@@ -252,7 +247,6 @@ body{
         height: 20vw;
         width: 100vw;
         top: 197vw;
-        
     }
     .img1{
         height: 12vw;
