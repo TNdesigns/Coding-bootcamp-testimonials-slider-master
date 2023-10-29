@@ -1,0 +1,315 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    
+}
+.slider1,
+.slider2{
+    height: 500px;
+    width: 1000px;
+    /*background-color: blue;*/
+    display: flex;
+    
+}
+.slider1 p{
+    position: relative;
+    top: 145px;
+    left: 0px;
+    margin-right: -130px;
+    font-family: "Inter";
+    font-size: 26px;
+    font-weight: 300;
+    word-spacing: 5.6px;
+    line-height: 36px;
+}
+.slider2 p{
+    position: relative;
+    top: 145px;
+    left: 0px;
+    margin-right: -180px;
+    font-family: "Inter";
+    font-size: 26px;
+    font-weight: 300;
+    word-spacing: 5.6px;
+    line-height: 36px;
+}
+.s1,.s2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10vw;
+}
+.img1{
+    position: absolute;
+    top: 15.7vw;
+    left: 17vw;
+    z-index: 1;
+}
+.img2{
+    position: absolute;
+    top: 44.6vw;
+    left: 0px;
+}
+.img3{
+    position: absolute;
+    top: 5.6vw;
+    left: 42.6vw;
+    z-index: -1;
+    height: 605px;
+    width: 697px;
+}
+.slider1 b{
+    position: relative;
+    top: 360px;
+    left: -427px;
+    white-space: nowrap;
+    font-family: "Inter";
+}
+.slider2 b{
+    position: relative;
+    top: 360px;
+    left: -372px;
+    white-space: nowrap;
+    font-family: "Inter";
+}
+.slider1 .p1{
+    position: relative;
+    top: 353px;
+    left: -411px;
+    white-space: nowrap;
+    font-family: "Inter";
+    font-size: 15px;
+    color: grey;
+}
+.slider2 .p1{
+    position: relative;
+    top: 353px;
+    left: -360px;
+    white-space: nowrap;
+    font-family: "Inter";
+    font-size: 15px;
+    color: grey;
+}
+.np-btn{
+    position: absolute;
+    top: 605px;
+    left: 690px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    z-index: 1;
+}
+#b1:hover,
+#b2:hover{
+    cursor: pointer;
+}
+#b1,#b2{
+    margin: 20px;
+}
+.img4,.img5{
+    border-radius: 10px;
+}
+#tm1{
+    display: flex;
+    
+}
+#tm2{
+    display: none;
+}
+@media screen and (min-device-width:300px) and (max-device-width:399px){
+    *{
+        margin: 0vw;
+        padding: 0vw;
+    }
+    html,body{
+        overflow-x: hidden;
+        height: 100%;
+        width: 100%;
+        
+    }
+    .img4{
+        height: 77vw;
+        width: 80vw;
+        top: -21.6vw;
+        left: 10vw;
+        position: relative;
+    }
+    .img5{
+        height: 77vw;
+        width: 80vw;
+        top: -21.6vw;
+        left: 10vw;
+        position: relative;
+    }
+    .img3{
+        height: 90vw;
+        width: 95vw;
+        top: 10vw;
+        left: 3vw;
+    }
+    .img2{
+        height: 20vw;
+        width: 100vw;
+        top: 160vw;
+    }
+    .img1{
+        height: 12vw;
+        width: 15vw;
+        top: 107vw;
+        left: 41vw;
+    }
+    #tm1,
+    #tm2{
+        position: absolute;
+        top: 0vw;
+        left: 0vw;
+        height: 100%;
+    }
+    .slider1,
+    .slider2{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .slider1 p{
+        margin-right: 30vw;
+        font-size: 4vw;
+        word-spacing: 0vw;
+        line-height: 5vw;
+        top: 115vw;
+        left: 16vw;
+        text-align: center;
+    }
+    .slider2 p{
+        margin-right: 32vw;
+        font-size: 4vw;
+        word-spacing: 0vw;
+        line-height: 5vw;
+        top: 115vw;
+        left: 16vw;
+        text-align: center;
+    }
+    .np-btn{
+        position: relative;
+        left: 35vw;
+        top: 90vw;
+        width: 30vw;
+    }
+    .slider1 b,
+    .slider2 b{
+        position: relative;
+        left: 36vw;
+        top: 117vw;
+    }
+    .slider1 .p1,
+    .slider2 .p1{
+        position: relative;
+        left: 15vw;
+        top: 118vw;
+        z-index: 2;
+    }
+}
+@media screen and (min-device-width:400px) and (max-device-width:499px){
+    *{
+        margin: 0vw;
+        padding: 0vw;
+    }
+    html,body{
+        overflow-x: hidden;
+        height: 100%;
+        width: 100%;
+        
+    }
+    .img4{
+        height: 77vw;
+        width: 80vw;
+        top: -21.6vw;
+        left: 10vw;
+        position: relative;
+    }
+    .img5{
+        height: 77vw;
+        width: 80vw;
+        top: -21.6vw;
+        left: 10vw;
+        position: relative;
+    }
+    .img3{
+        height: 90vw;
+        width: 95vw;
+        top: 10vw;
+        left: 3vw;
+    }
+    .img2{
+        height: 20vw;
+        width: 100vw;
+        top: 197vw;
+        
+    }
+    .img1{
+        height: 12vw;
+        width: 15vw;
+        top: 107vw;
+        left: 41vw;
+    }
+    #tm1,
+    #tm2{
+        position: absolute;
+        top: 0vw;
+        left: 0vw;
+        height: 100%;
+    }
+    .slider1,
+    .slider2{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .slider1 p{
+        margin-right: 30vw;
+        font-size: 4vw;
+        word-spacing: 0vw;
+        line-height: 5vw;
+        top: 115vw;
+        left: 16vw;
+        text-align: center;
+    }
+    .slider2 p{
+        margin-right: 32vw;
+        font-size: 4vw;
+        word-spacing: 0vw;
+        line-height: 5vw;
+        top: 115vw;
+        left: 16vw;
+        text-align: center;
+    }
+    .np-btn{
+        position: relative;
+        left: 35vw;
+        top: 90vw;
+        width: 30vw;
+    }
+    .slider1 b,
+    .slider2 b{
+        position: relative;
+        left: 36vw;
+        top: 117vw;
+    }
+    .slider1 .p1,
+    .slider2 .p1{
+        position: relative;
+        left: 15vw;
+        top: 118vw;
+        z-index: 2;
+    }
+}
